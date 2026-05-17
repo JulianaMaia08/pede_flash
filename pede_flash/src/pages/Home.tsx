@@ -37,7 +37,7 @@ const products: Product[] = [
 export default function HomePage() {
   return (
     <View style={styles.container}>
-      <Image source={require('./assets/logo.png')} style={{ width: 120, height: 40, marginBottom: 20 }} />
+      <Image source={require('../../assets/logo.png')} style={{ width: 120, height: 60, marginBottom: 20 }} />
       <Text style={styles.title}>Encontre as melhores comidas</Text>
       <FlatList
         data={products}
